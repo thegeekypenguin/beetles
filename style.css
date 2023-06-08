@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Ubuntu:wght@500&display=swap');
 body{
     background-color: antiquewhite;
+    background-image: url('bg.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 *{
     
@@ -45,15 +49,16 @@ nav ul li{
 }
 .container {
     min-height:72 vh;
-    background-color:rgb(25, 2, 24) ;
+    
     color: white;
     font-family: 'Ubuntu', sans-serif;
+    
     display: flex;
     width: 50%;
     margin: 75px auto;
     border-radius: 12px;
     padding: 150px;
-    background-image: url('bg.jpeg');
+    
 }
 .bottom {
     position: sticky;
@@ -66,11 +71,12 @@ nav ul li{
     align-items:center;
     flex-direction: column;
     margin: 500px 0;
+    background-attachment: center;
     
 
 }
 .icons{
-    margin-top: 10px;
+    margin-top: 10px; 
 }
 .icons{
     cursor: pointer;
